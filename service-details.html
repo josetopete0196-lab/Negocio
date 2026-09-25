@@ -44,7 +44,7 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Laura</h1>
+        <h1 class="sitename">Visión Clara</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -92,10 +92,10 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="services-list">
-              <a href="#" class="active">Gafas graduadas</a>
-              <a href="#">Examen visual</a>
-              <a href="#">Lentes de sol</a>
-              <a href="#">Lentes de contacto</a>
+              <a href="#" class="active" data-service="gafas">Gafas graduadas</a>
+              <a href="#" data-service="examen">Examen visual</a>
+              <a href="#" data-service="sol">Lentes de sol</a>
+              <a href="#" data-service="contacto-lentes">Lentes de contacto</a>
             </div>
 
             <h4>¿Necesitas ayuda para elegir?</h4>
@@ -103,19 +103,71 @@
           </div>
 
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
-            <h3>Gafas graduadas a tu medida, con la garantía de una óptica de confianza</h3>
-            <p>
-              Realizamos primero un examen visual completo para determinar tu graduación exacta y luego te ayudamos a elegir la montura y el tipo de lente ideales: monofocales, bifocales o progresivos, con tratamientos opcionales de antirreflejante, filtro de luz azul o fotocromático.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Examen visual sin costo con la compra de tus lentes</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Laboratorio propio: entrega en 48 horas</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Garantía y ajuste de montura de por vida</span></li>
-            </ul>
-            <p>
-              Contamos con monturas de distintos materiales, estilos y precios, tanto para adultos como para niños, y con planes de pago para que cuidar tu vista no sea una carga económica.
-            </p>
+
+            <div class="service-content" data-service="gafas">
+              <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
+              <h3>Gafas graduadas a tu medida, con la garantía de una óptica de confianza</h3>
+              <p>
+                Realizamos primero un examen visual completo para determinar tu graduación exacta y luego te ayudamos a elegir la montura y el tipo de lente ideales: monofocales, bifocales o progresivos, con tratamientos opcionales de antirreflejante, filtro de luz azul o fotocromático.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> <span>Examen visual sin costo con la compra de tus lentes</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Laboratorio propio: entrega en 48 horas</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Garantía y ajuste de montura de por vida</span></li>
+              </ul>
+              <p>
+                Contamos con monturas de distintos materiales, estilos y precios, tanto para adultos como para niños, y con planes de pago para que cuidar tu vista no sea una carga económica.
+              </p>
+            </div>
+
+            <div class="service-content" data-service="examen" style="display:none">
+              <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
+              <h3>Examen visual completo con equipos digitales</h3>
+              <p>
+                Nuestro examen visual mide tu graduación exacta y revisa la salud general de tus ojos, para detectar a tiempo problemas como astigmatismo, miopía, hipermetropía o presbicia.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> <span>Sin costo al comprar tus lentes con nosotros</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Resultados y receta el mismo día</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Atención por ópticos certificados</span></li>
+              </ul>
+              <p>
+                Recomendamos un examen visual al menos una vez al año, o antes si notas cambios en tu visión.
+              </p>
+            </div>
+
+            <div class="service-content" data-service="sol" style="display:none">
+              <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
+              <h3>Lentes de sol con protección real para tus ojos</h3>
+              <p>
+                Manejamos lentes de sol de marca con protección UV400, ideales para el uso diario o deportivo, y también disponibles con graduación si necesitas corrección visual.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> <span>Protección UV400 certificada</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Disponibles con graduación</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Amplia variedad de modelos y colores</span></li>
+              </ul>
+              <p>
+                Pregunta por nuestras promociones al combinar tus lentes de sol con tu compra de gafas graduadas.
+              </p>
+            </div>
+
+            <div class="service-content" data-service="contacto-lentes" style="display:none">
+              <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
+              <h3>Lentes de contacto para cada estilo de vida</h3>
+              <p>
+                Ofrecemos lentes de contacto blandos, tóricos (para astigmatismo) y de uso prolongado, con la asesoría de nuestros ópticos para elegir la opción más cómoda y segura para ti.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> <span>Adaptación y seguimiento incluidos</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Opciones diarias, quincenales y mensuales</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Asesoría sobre cuidado e higiene</span></li>
+              </ul>
+              <p>
+                Si es tu primera vez usando lentes de contacto, agenda una cita para que te enseñemos a colocarlos y quitarlos correctamente.
+              </p>
+            </div>
+
           </div>
 
         </div>
@@ -125,6 +177,22 @@
     </section><!-- /Service Details Section -->
 
   </main>
+
+  <script>
+    document.querySelectorAll('.services-list a').forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        var target = this.dataset.service;
+
+        document.querySelectorAll('.services-list a').forEach(function (a) { a.classList.remove('active'); });
+        this.classList.add('active');
+
+        document.querySelectorAll('.service-content').forEach(function (block) {
+          block.style.display = (block.dataset.service === target) ? '' : 'none';
+        });
+      });
+    });
+  </script>
 
   <footer id="footer" class="footer position-relative dark-background">
     <div class="container">
